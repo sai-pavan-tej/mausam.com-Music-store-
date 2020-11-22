@@ -35,7 +35,7 @@ li:not(:last-child) {
 
 #showcase{
   
-  background: url("/IMAGE/dua-lipa-2019-new-439696.jpg") no-repeat center center/cover;
+  background: url("../IMAGE/dua-lipa-2019-new-439696.jpg") no-repeat center center/cover;
   height: 100vh;
 
   /* color: #312B49; */
