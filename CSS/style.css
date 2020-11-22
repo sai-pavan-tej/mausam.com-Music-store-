@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&display=swap');
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+
+
+input.form-control{
+ background-color: rgb(221, 209, 209) !important;
+  /* background-color:rgba(0,0,0,0) !important; */
+  border:none !important;
+}
+
+ul{
+  color: #fff;
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+#showcase{
+  
+  background:url("file:///C:/Users/Pandu/Desktop/Modern%20WebPage/IMAGE/dua-lipa-2019-new-439696.jpg") no-repeat center center/cover;
+  height: 100vh;
+
+  /* color: #312B49; */
+  width: 100vw;
+
+  
+}
+
+
+.navbar{
+  background-color: rgba(0, 0, 0,0);
+  color: #fff;
+  z-index: 1;
+  position: sticky;
+  padding: 20px;
+  font-family: ubuntu;
+  
+}
+
+.navbar-brand{
+  margin-left: 50px;
+  font-family: 'Caveat', cursive;
+  font-size: 1.8rem;
+ 
+}
+
+
+
+ .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+  height: 100%;
+  padding: 0 2rem;
+  
+  position: absolute;
+  top: 0;
+  left:0;
+  right:1100px;
+  bottom: 0;
+  background-color: rgba(85, 85, 139,0.4);
+  padding-top: 80px;
+  padding-left:140px;
+
+  
+
+}
+
+ /* .showcase-content , .main{
+   font-size: 1.3rem;
+   color: #fff ;
+   list-style-type: none;
+  
+ } */
+
+
+ .showcase-content > div {
+  /* background-color: #f1f1f1; */
+  width: 15vw;
+  height: 30%;
+  margin: 20px;
+  text-align: left;
+  line-height: 40px;
+  font-size: 1.3rem; 
+  padding-left: 10px;
+  
+}
+
+.home{
+  /* background-color: #f1f1f1; */
+  width: 15vw;
+  height: 20% !important;
+  margin: 10px;
+  text-align: left;
+  line-height: 40px;
+  font-size: 1.3rem; 
+  padding-left: 10px;
+}
+
+ .showcase-content{
+    position: absolute;
+    padding-top: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: medium;
+     
+}
+
+
+.button1 {
+  background-color:#89D7EA;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  margin-left: 35px;
+  margin-bottom: 5px;
+  color:black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 80px;
+}
+
+.shuffle ul {
+  margin:20px;
+  padding: 20px;
+  font-family: 'Oswald', sans-serif;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+/* .shuffle {
+  background-color: black;
+  position: relative;
+  color: #fff;
+  top:10%;
+  left:0%;
+  right: 50%;
+  margin-left: 70%;
+  margin-right: 10%;
+
+  width: 300px;
+} */
+
+.shuffle {
+  background-color: black;
+  position: absolute;
+  color: #fff;
+  top:250px;
+  left:1100px;
+}
+
+
+h5{
+  font-family:ubuntu;
+  font-weight: lighter;
+  margin-bottom:15px;
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+ /* a:hover{
+  text-decoration-color: #89D7EA;
+  text-emphasis-color: blue;
+}  */
+
+@media (max-width: 1024px) {
+
+  .showcase-content{
+    padding-top: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .showcase-content > div {
+    /* background-color: #f1f1f1; */
+    width: 70vw;
+    height: 30%;
+    margin-left:50px ;
+    text-align: middle;
+    line-height: 30px;
+    font-size: 1.1rem; 
+    padding-left: 0px;
+    background-color: rgba(85, 85, 139,0.4);
+    
+    
+  }
+
+  .shuffle {
+    background-color: black;
+    position: relative;
+    color: #fff;
+    top:100%;
+    left:0%;
+    right: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+    width: 250px;
+  }
+
+}
+/* @media (min-width:426px) and (max-width:768px){ */
+
+  /* #showcase{
+  
+    background:url("file:///C:/Users/Pandu/Desktop/Modern%20WebPage/IMAGE/dua-lipa-2019-new-439696.jpg") no-repeat center center/cover;
+    height: 100vh;
+  
+    
+    width: 100vw;
+  
+    
+  } */
+
+  /* .showcase-content{
+    position: absolute;
+    padding-top: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: medium;
+  }
+  .showcase-content > div {
+    
+    width: 15vw;
+    height: 30%;
+    margin: 20px;
+    text-align: left;
+    line-height: 40px;
+    font-size: 1.3rem; 
+    padding-left: 10px;
+  }
+  .shuffle {
+    background-color: black;
+    position: absolute;
+    color: #fff;
+    top:250px;
+    left:1100px;
+  } */
+  
+/* } */
+/* music player */
+
+img{
+  width: 100%;
+  min-height: 250px;
+}
+
+.main1{
+  padding: 40px 0;
+
+}
+.col-md-3{
+  margin-bottom: 40px;
+}
+.album-poster{
+  position: relative;
+  display: block;
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px #3d2173a1;
+  transition: all ease 0.4s;
+}
+
+.album-poster:hover{
+  box-shadow: none;
+  transform: scale(0.98) translateY(5px);
+}
+
+h3{
+  font-size: 34px;
+  margin-bottom: 34px;
+  border-bottom: 4px solid #e6e6e6;
+  padding-bottom: 15px;
+}
+p{
+  font-size: 15px;
+}
+h4{
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+/*default is hide music player*/
+#aplayer{
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  box-shadow: 0 -2px 2px #dadada;
+  background-color: #fff;
+  transition: all ease 0.5s;
+}
+#aplayer.showPlayer{
+  bottom: 0;
+}
+
+
+/*MUSIC PLAYER CUSTOMIZING STYLE*/
+span{
+  color: #000 !important;
+  font-size: 16px;
+}
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded{
+  background: #e0e0e0;
+    height: 4px;
+}
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played{
+  height: 4px;
+  background-color: #2196F3 !important;
+}
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb{
+  background-color: #2196F3 !important;
+}
+
+.aplayer .aplayer-icon{
+  width: 20px;
+  height: 20px;
+}
+.aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon path {
+    fill: #000;
+}
+.aplayer .aplayer-info .aplayer-music{
+  margin-bottom: 5px;
+}
